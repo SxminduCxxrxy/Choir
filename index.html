@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>THE CHOIR OF ST.SEBASTIAN'S COLLEGE</title>
+        <link rel="icon" href="logo.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="fonts.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;400;900&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Germania+One&display=swap">
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </head>
+    <body>
+
+        <!-- ##### Preloader ##### -->
+        <!--<div id="preloader">
+            <i class="circle-preloader"></i>
+        </div>-->
+
+        <!-- ##### Navigation ##### -->
+        <header class="main-menu" id="main-menu">
+            <ul>
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">HISTORY</a></li>
+                <li><a href="#">EVENTS</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </header>
+
+        <!-- ##### Hero ##### -->
+        <section>
+            <div class="hero-image">
+                <h2 class="hero-title">
+                        THE CHOIR OF<br>ST.SEBASTIAN'S COLLEGE 
+                        <a href="https://www.google.com/maps/place/St.Sebastian's+College/@6.7822499,79.8789444,17z/data=!4m5!3m4!1s0x3ae24504a934e55f:0x3252fdbce37c93ca!8m2!3d6.7822446!4d79.8811331" target="_blank">MORATUWA</a>
+                </h2>
+            </div>
+        </section>
+
+        <main>
+            <section class="motto">
+                <div data-aos="fade-up" data-aos-duration="3000"><img src="logo.png" class="motto-image"></div>
+                <div class="motto-text" data-aos="fade-left" data-aos-duration="3000">Honour</div>
+                <div class="motto-text" data-aos="fade-left" data-aos-duration="3000">Holy</div>
+                <div class="motto-text" data-aos="fade-left" data-aos-duration="3000">Humanity</div>
+            </section>
+            <section>
+                <div class="mid-image"></div>
+            </section>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+        </main>
+
+        <footer class="main-footer">
+				<a href="#" target="_blank" title="Facebook" class="fb">
+					<i class="fa fa-facebook"></i>
+				</a>
+				<a href="#" target="_blank" title="Instagram" class="insta">
+					<i class="fa fa-instagram"></i>
+				</a>
+				<a href="#" target="_blank" title="Twitter" class="tweet">
+					<i class="fa fa-twitter"></i>
+				</a>
+                <div class="copyright-area">
+                    <p>Copyright © 2021 THE CHOIR OF ST.SEBASTIAN'S COLLEGE. All Rights Reserved. | Designed by ##### | Developed by ##### | Powered by ##### </p>
+                </div>
+        </footer>
+
+        <script>
+            
+            AOS.init();
+            /* ### Pre Loader ### */
+            window.onload=preloader();
+
+            var myVar;
+            
+            function preloader() {
+              myVar = setTimeout(showPage, 3000);
+            }
+            
+            function showPage() {
+              document.getElementById("preloader").style.cssText = "display: none;";
+            }
+            /* ### End ### */
+
+            /* ### Sticky Navigation ### */
+            window.onscroll = function() {myFunction()};
+
+            var navbar = document.getElementById("main-menu");
+
+            var sticky = navbar.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+            /* ### End ### */
+
+        </script>
+
+        
+
+    </body>
+</html>
