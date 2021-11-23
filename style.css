@@ -268,13 +268,8 @@ body{
       
     /* ##### The hero image ##### */
     .hero-image {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Images/hero.jpg');
-        height: 300vh;
+        height: 230vh;
         width: 63.2em;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
     }
     .hero-title {
         top: 10em;
