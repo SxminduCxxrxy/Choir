@@ -65,7 +65,7 @@ body{
 
 /* ##### The hero image ##### */
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hero.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Images/hero.jpg');
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -174,7 +174,7 @@ body{
     height: 25em;
 }
 .mid-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('main.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Images/main.jpg');
     height: 100vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
