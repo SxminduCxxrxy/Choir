@@ -253,3 +253,123 @@ body{
     animation: spin 2s infinite linear;
 }
 
+@media only screen and (max-device-width: 850px) 
+{
+    body{
+        width: 63.2em;
+    }
+    .main-menu{
+        width: 56.5em;
+    }
+    
+    .main-menu ul{
+        margin-left: 4em;
+    }
+      
+    /* ##### The hero image ##### */
+    .hero-image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Images/hero.jpg');
+        height: 300vh;
+        width: 63.2em;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .hero-title {
+        top: 10em;
+        width: 100%;
+        font-size: 6em;
+        animation: fadeUp 1000ms linear 0s;
+    }
+    
+    /* ##### Footer ##### */
+    .main-footer{
+        background-color: #38b143;
+        font-family: 'Montserrat Alternates', sans-serif;
+        padding: 1.3em;
+        text-align: center;
+    }
+    .main-footer a.fb{
+        color: #ffffff;
+        font-size: 1.5em;
+        margin: 0% 1%;
+        text-decoration:none; 
+    }
+    .main-footer a.fb:hover{
+        color:#1877f2;
+    }
+    .main-footer a.insta{
+        color: #ffffff;
+        font-size: 1.5em;
+        margin: 0% 1%;
+        text-decoration:none; 
+    }
+    .main-footer a.insta:hover{
+        background: linear-gradient( #F58529, #FEDA77, #DD2A7B, #8134AF, #515BD4);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .main-footer a.tweet{
+        color: #ffffff;
+        font-size: 1.5em;
+        margin: 0% 1%;
+        text-decoration:none; 
+    }
+    .main-footer a.tweet:hover{
+        color:#3498DB;
+    }
+    
+    .main-footer .copyright-area{
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-size: 12px;
+        margin-top: 2em;
+        margin-bottom: 0;
+        color: #ffffff;
+    }
+    
+    /* ######################### Common Styles End ######################### */
+    
+    
+    /* ######################### Home Page Styles ######################### */
+    .motto{
+        margin: 10em 0em;
+        height: 150vh;
+    }
+    
+    .motto-text {
+        width: 100%;
+        margin: 0;
+        height: 30vh;
+        text-align: center;
+        letter-spacing: 0.1em;
+        font-size: 12em;
+    }
+    .motto-image {
+        position: relative;
+        top: -4em;
+        left: 15.5em;
+        right: 15.5em;
+        width: 31em;
+        height: 30em;
+    }
+    .mid-image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Images/main.jpg');
+        height: 100vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    @keyframes fadeUp {
+        0% {
+            top:11.5em; 
+            opacity:0;
+        }
+        100% {
+            top:10em;
+        }
+    }
+    
+}
