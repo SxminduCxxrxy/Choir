@@ -258,7 +258,7 @@ body{
 
     body{
         overflow-x: hidden;
-        width: 55.2em;
+        width: 56.2em;
     }
     .main-menu{
         width: 48.5em;
@@ -271,7 +271,7 @@ body{
     /* ##### The hero image ##### */
     .hero-image {
         height: 250vh;
-        width: 55.2em;
+        width: 56.2em;
     }
     .hero-title {
         top: 8em;
