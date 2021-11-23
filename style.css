@@ -272,13 +272,13 @@ body{
       
     /* ##### The hero image ##### */
     .hero-image {
-        height: 250vh;
+        height: 190vh;
         width: 56.2em;
     }
     .hero-title {
-        top: 8em;
+        top: 6em;
         width: 100%;
-        font-size: 6em;
+        font-size: 5.9em;
         animation: fadeUp 1000ms linear 0s;
     }
     
@@ -359,11 +359,11 @@ body{
 
     @keyframes fadeUp {
         0% {
-            top: 9.5em;
+            top: 7.5em;
             opacity:0;
         }
         100% {
-            top: 8em;
+            top: 6em;
         }
     }
     
