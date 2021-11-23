@@ -255,7 +255,9 @@ body{
 
 @media only screen and (max-device-width: 850px) 
 {
-
+    html{
+        overflow-x: hidden;
+    }
     body{
         overflow-x: hidden;
         width: 56.2em;
